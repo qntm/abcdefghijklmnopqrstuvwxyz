@@ -4,12 +4,6 @@ Provides the English alphabet, to reduce typing and the risk of mistakes. A ligh
 
 This package exports a single lower-case 26-character string containing the modern English alphabet, suitable for using as-is, or for safely interpolating, without the need for escaping, into nearly any context.
 
-## Installation
-
-```bash
-npm install abcdefghijklmnopqrstuvwxyz
-```
-
 ## Usage
 
 ```js
