@@ -1,6 +1,6 @@
 {
 	"name": "abcdefghijklmnopqrstuvwxyz",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Provides a string variable containing the modern English alphabet, to reduce typing and mistakes. A lightweight alternative to the `alphabet` package, with a streamlined API.",
 	"homepage": "https://github.com/ferno/abcdefghijklmnopqrstuvwxyz",
 	"repository": {
