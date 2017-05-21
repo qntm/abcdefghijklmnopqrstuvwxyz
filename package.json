@@ -1,17 +1,17 @@
 {
 	"name": "abcdefghijklmnopqrstuvwxyz",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Provides a string variable containing the modern English alphabet, to reduce typing and mistakes. A lightweight alternative to the `alphabet` package, with a streamlined API.",
-	"homepage": "https://github.com/ferno/abcdefghijklmnopqrstuvwxyz",
+	"homepage": "https://github.com/qntm/abcdefghijklmnopqrstuvwxyz",
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/ferno/abcdefghijklmnopqrstuvwxyz.git"
+		"url": "git://github.com/qntm/abcdefghijklmnopqrstuvwxyz.git"
 	},
 	"main": "index.js",
 	"keywords": [
 		"abc",
 		"alphabet"
 	],
-	"author": "ferno",
+	"author": "qntm",
 	"license": "MIT"
 }
