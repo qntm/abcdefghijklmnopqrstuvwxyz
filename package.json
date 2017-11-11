@@ -1,17 +1,27 @@
 {
-	"name": "abcdefghijklmnopqrstuvwxyz",
-	"version": "1.0.2",
-	"description": "Provides a string variable containing the modern English alphabet, to reduce typing and mistakes. A lightweight alternative to the `alphabet` package, with a streamlined API.",
-	"homepage": "https://github.com/qntm/abcdefghijklmnopqrstuvwxyz",
-	"repository": {
-		"type": "git",
-		"url": "git://github.com/qntm/abcdefghijklmnopqrstuvwxyz.git"
-	},
-	"main": "index.js",
-	"keywords": [
-		"abc",
-		"alphabet"
-	],
-	"author": "qntm",
-	"license": "MIT"
+  "name": "abcdefghijklmnopqrstuvwxyz",
+  "version": "1.0.3",
+  "description": "Provides a string variable containing the modern English alphabet ('abcdefghijklmnopqrstuvwxyz'), to reduce typing and mistakes. A lightweight alternative to the `alphabet` package, with a streamlined API.",
+  "homepage": "https://github.com/qntm/abcdefghijklmnopqrstuvwxyz",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/qntm/abcdefghijklmnopqrstuvwxyz.git"
+  },
+  "main": "abcdefghijklmnopqrstuvwxyz.js",
+  "keywords": [
+    "abc",
+    "alphabet",
+    "abcdefghijklmnopqrstuvwxyz"
+  ],
+  "author": "qntm",
+  "license": "MIT",
+  "devDependencies": {
+    "jasmine": "^2.8.0",
+    "standard": "^10.0.3"
+  },
+  "scripts": {
+    "standard": "standard",
+    "jasmine": "jasmine",
+    "test": "npm run jasmine test.js"
+  }
 }
