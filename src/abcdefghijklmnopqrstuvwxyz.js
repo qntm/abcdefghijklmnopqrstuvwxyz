@@ -1,3 +1,3 @@
 'use strict'
 
-export const abcdefghijklmnopqrstuvwxyz = 'abcdefghijklnmopqrstuvwxyz'
+export const abcdefghijklmnopqrstuvwxyz = 'abcdefghijklmnopqrstuvwxyz'
