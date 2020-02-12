@@ -1,8 +1,7 @@
 # abcdefghijklmnopqrstuvwxyz
 
-Provides the English alphabet, to reduce typing and the risk of mistakes. A lightweight alternative to the [`alphabet` package](https://www.npmjs.com/package/alphabet), with a relatively streamlined API.
+This package exports a single lower-case 26-character string containing the modern English alphabet, suitable for using as-is, or for safely interpolating, without the need for escaping, into nearly any context. The purpose of this package is to reduce the need for repetitious typing and the risk of typographical errors, and to serve as a lightweight alternative to the [`alphabet` package](https://www.npmjs.com/package/alphabet), with a relatively clean, streamlined API.
 
-This package exports a single lower-case 26-character string containing the modern English alphabet, suitable for using as-is, or for safely interpolating, without the need for escaping, into nearly any context.
 
 ## Installation
 
@@ -12,13 +11,32 @@ npm install abcdefghijklmnopqrstuvwxyz
 
 ## Usage
 
-```js
-var abcdefghijklmnopqrstuvwxyz = require("abcdefghijklmnopqrstuvwxyz");
+### ES6
 
-console.log(abcdefghijklmnopqrstuvwxyz);
+```js
+import { abcdefghijklmnopqrstuvwxyz } from 'abcdefghijklmnopqrstuvwxyz'
+
+console.log(abcdefghijklmnopqrstuvwxyz)
 // "abcdefghijklmnopqrstuvwxyz"
 ```
 
-## Licence
+### CommonJS
 
-MIT
+```js
+const { abcdefghijklmnopqrstuvwxyz } = require('abcdefghijklmnopqrstuvwxyz')
+
+console.log(abcdefghijklmnopqrstuvwxyz)
+// "abcdefghijklmnopqrstuvwxyz"
+```
+
+### In the browser
+
+Load this file in the browser to gain access to a `abcdefghijklmnopqrstuvwxyz` global representing the `abcdefghijklmnopqrstuvwxyz` package.
+
+```html
+<script src="https://unpkg.com/abcdefghijklmnopqrstuvwxyz" crossorigin></script>
+<script>
+  console.log(abcdefghijklmnopqrstuvwxyz)
+  // { abcdefghijklmnopqrstuvwxyz: 'abcdefghijklmnopqrstuvwxyz' }
+</script>
+```

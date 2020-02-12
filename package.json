@@ -1,27 +1,39 @@
 {
   "name": "abcdefghijklmnopqrstuvwxyz",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "description": "Provides a string variable containing the modern English alphabet ('abcdefghijklmnopqrstuvwxyz'), to reduce typing and mistakes. A lightweight alternative to the `alphabet` package, with a streamlined API.",
   "homepage": "https://github.com/qntm/abcdefghijklmnopqrstuvwxyz",
   "repository": {
     "type": "git",
     "url": "git://github.com/qntm/abcdefghijklmnopqrstuvwxyz.git"
   },
-  "main": "abcdefghijklmnopqrstuvwxyz.js",
+  "module": "dist/es6/abcdefghijklmnopqrstuvwxyz.js",
+  "main": "dist/cjs/abcdefghijklmnopqrstuvwxyz.js",
+  "browser": "dist/iife/abcdefghijklmnopqrstuvwxyz.js",
   "keywords": [
-    "abc",
     "alphabet",
     "abcdefghijklmnopqrstuvwxyz"
   ],
   "author": "qntm",
   "license": "MIT",
   "devDependencies": {
-    "jasmine": "^2.8.0",
-    "standard": "^10.0.3"
+    "@babel/preset-env": "^7.7.7",
+    "jest": "^24.9.0",
+    "rollup": "^1.29.0",
+    "standard": "^14.3.1"
   },
   "scripts": {
+    "jest": "jest",
+    "rollup": "rollup",
     "standard": "standard",
-    "jasmine": "jasmine",
-    "test": "npm run jasmine test.js"
+    "test": "standard && jest"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "standard": {
+    "ignore": "dist"
   }
 }
