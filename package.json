@@ -1,6 +1,6 @@
 {
   "name": "abcdefghijklmnopqrstuvwxyz",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Provides a string variable containing the modern English alphabet ('abcdefghijklmnopqrstuvwxyz'), to reduce typing and mistakes. A lightweight alternative to the `alphabet` package, with a streamlined API.",
   "homepage": "https://github.com/qntm/abcdefghijklmnopqrstuvwxyz",
   "repository": {
@@ -9,7 +9,6 @@
   },
   "module": "dist/es6/abcdefghijklmnopqrstuvwxyz.js",
   "main": "dist/cjs/abcdefghijklmnopqrstuvwxyz.js",
-  "browser": "dist/iife/abcdefghijklmnopqrstuvwxyz.js",
   "keywords": [
     "alphabet",
     "abcdefghijklmnopqrstuvwxyz"

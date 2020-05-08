@@ -34,7 +34,7 @@ console.log(abcdefghijklmnopqrstuvwxyz)
 Load this file in the browser to gain access to a `abcdefghijklmnopqrstuvwxyz` global representing the `abcdefghijklmnopqrstuvwxyz` package.
 
 ```html
-<script src="https://unpkg.com/abcdefghijklmnopqrstuvwxyz" crossorigin></script>
+<script src="https://unpkg.com/abcdefghijklmnopqrstuvwxyz@2/dist/iife/abcdefghijklmnopqrstuvwxyz.js" crossorigin></script>
 <script>
   console.log(abcdefghijklmnopqrstuvwxyz)
   // { abcdefghijklmnopqrstuvwxyz: 'abcdefghijklmnopqrstuvwxyz' }
