@@ -26,6 +26,7 @@
     "start-server-and-test": "^1.11.3"
   },
   "scripts": {
+    "build": "rollup",
     "jest": "jest",
     "rollup": "rollup",
     "standard": "standard",
