@@ -26,9 +26,8 @@
     "start-server-and-test": "^1.11.3"
   },
   "scripts": {
-    "build": "rollup",
+    "build": "rollup -c rollup.config.js",
     "jest": "jest",
-    "rollup": "rollup",
     "standard": "standard",
     "test": "standard && jest --coverage",
     "test-built": "npm run test-built-cjs && npm run test-built-es6 && npm run test-built-iife",
