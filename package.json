@@ -28,8 +28,8 @@
   "scripts": {
     "build": "rollup -c rollup.config.js",
     "jest": "jest",
-    "standard": "standard",
     "postpublish": "npm version patch && git push",
+    "standard": "standard",
     "test": "standard && jest --coverage",
     "test-built": "npm run test-built-cjs && npm run test-built-es6 && npm run test-built-iife",
     "test-built-cjs": "node test-built/cjs.js",
