@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 3.x.x
+
+* Support for Node.js 10 is dropped.
+* Support for CommonJS is dropped.
+
 ## 2.x.x
 
 For better consistency when consumed as an ES6 module, `abcdefghijklmnopqrstuvwxyz`'s API has changed. Code like:
