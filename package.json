@@ -1,6 +1,6 @@
 {
   "name": "abcdefghijklmnopqrstuvwxyz",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "Provides a string variable containing the modern English alphabet ('abcdefghijklmnopqrstuvwxyz'), to reduce typing and mistakes. A lightweight alternative to the `alphabet` package, with a streamlined API.",
   "homepage": "https://github.com/qntm/abcdefghijklmnopqrstuvwxyz",
   "repository": {
@@ -22,7 +22,8 @@
   },
   "scripts": {
     "mocha": "c8 --100 mocha",
-    "postpublish": "npm version patch && git push",
+    "tag": "node -e \"require('child_process').spawn('git', ['tag', `v${require('./package.json').version}`], { stdio: 'inherit' })\"",
+    "publish": "npm run tag && npm publish && npm version patch --no-git-tag-version && git push",
     "standard": "standard",
     "test": "npm run standard && npm run mocha"
   },
