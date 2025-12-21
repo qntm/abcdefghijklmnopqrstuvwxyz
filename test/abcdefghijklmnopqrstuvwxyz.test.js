@@ -1,7 +1,7 @@
-/* eslint-env mocha */
+import assert from 'node:assert'
+import { describe, it } from 'node:test'
 
 import { abcdefghijklmnopqrstuvwxyz } from '../src/abcdefghijklmnopqrstuvwxyz.js'
-import assert from 'assert'
 
 describe('`abcdefghijklmnopqrstuvwxyz`', () => {
   it('is \'abcdefghijklmnopqrstuvwxyz\'', () => {
