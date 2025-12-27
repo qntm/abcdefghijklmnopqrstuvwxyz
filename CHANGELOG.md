@@ -2,7 +2,7 @@
 
 ## 4.0.0
 
-* Support for Node.js 12, 14, 16 and 18 is dropped.
+* Support for Node.js 12, 14, 16, 18, 20 and 22 is dropped.
 
 ## 3.x.x
 
