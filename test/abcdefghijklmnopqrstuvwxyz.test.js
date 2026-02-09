@@ -15,7 +15,7 @@ describe('`abcdefghijklmnopqrstuvwxyz`', () => {
   })
   it('is correctly ordered', () => {
     assert.deepEqual(
-      abcdefghijklmnopqrstuvwxyz.split("").sort((a, b) => a.localeCompare(b, 'en')).join(""),
+      abcdefghijklmnopqrstuvwxyz.split('').sort((a, b) => a.localeCompare(b, 'en')).join(''),
       abcdefghijklmnopqrstuvwxyz
     )
   })
