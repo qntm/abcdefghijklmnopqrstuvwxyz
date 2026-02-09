@@ -13,4 +13,10 @@ describe('`abcdefghijklmnopqrstuvwxyz`', () => {
   it('has no repetitions', () => {
     assert.deepEqual(new Set(abcdefghijklmnopqrstuvwxyz.split('')).size, 26)
   })
+  it('is correctly ordered', () => {
+    assert.deepEqual(
+      abcdefghijklmnopqrstuvwxyz.split('').sort((a, b) => a.localeCompare(b, 'en')).join(''),
+      abcdefghijklmnopqrstuvwxyz
+    )
+  })
 })
